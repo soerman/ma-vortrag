@@ -224,7 +224,7 @@
       \strut\insertshortdate%
   \end{beamercolorbox}%
   \begin{beamercolorbox}[wd=\dimexpr\paperwidth-37mm-\kitfootergroupwidth, ht=\kitbottomheight, dp=\kitbottomdepth]{}%
-      \beamer@shortauthor\ifx\beamer@shortauthor\empty\else: \fi\beamer@shorttitle%
+      \inserttitle%
   \end{beamercolorbox}%
   \ifdefined\@groupname%
   \begin{beamercolorbox}[wd=\kitfootergroupwidth, ht=\kitbottomheight, dp=\kitbottomdepth, rightskip=\kitinnermargin]{}
